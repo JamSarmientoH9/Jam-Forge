@@ -11,14 +11,7 @@
         <li>📚 &nbsp; Computer and Systems Engineering Student <a href="https://fisc.utp.ac.pa/licenciatura-en-ingenieria-de-sistemas-y-computacion">UTP</a></li>
         <li>👑 &nbsp; Junior Backend and Frontend Developer </li>
         <li>🤔 &nbsp; Interested in Machine Learning and Optimization</li>
-       </ul>
-
-    </td>
-    <td>
-     <p align="center">
-        <img height="290em" src="https://github.com/Taabannn/Taabannn/blob/main/images/java-python-developer.png"/>
-     </p>
-    </td>
+       </ul> 
   </tr>
   <tr>
    <td>
