@@ -7,7 +7,7 @@
     <td>
       <h2> 💻 &nbsp;About Me </h2>
        <ul>
-        <li>🎓 &nbsp; Student of the Universidad Tecnologia de Panama, Faculty of Computer Systems and Information Technology. <a href="https://fisc.utp.ac.pa">UTP</a></li>
+        <li>🎓 &nbsp; Student of Faculty of Computer Systems and Information Technology. <a href="https://fisc.utp.ac.pa">UTP</a></li>
         <li>📚 &nbsp; Computer and Systems Engineering Student <a href="https://fisc.utp.ac.pa/licenciatura-en-ingenieria-de-sistemas-y-computacion">UTP</a></li>
         <li>👑 &nbsp; Junior Backend and Frontend Developer </li>
         <li>🤔 &nbsp; Interested in Machine Learning and Optimization</li>
@@ -19,7 +19,7 @@
     </td>
     <td>
      <p align="center">
-        <img height="300em" src="https://github.com/Taabannn/Taabannn/blob/main/images/java-python-developer.png"/>
+        <img height="290em" src="https://github.com/Taabannn/Taabannn/blob/main/images/java-python-developer.png"/>
      </p>
     </td>
   </tr>
