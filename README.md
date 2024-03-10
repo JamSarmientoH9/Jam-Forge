@@ -7,8 +7,8 @@
     <td>
       <h2> 💻 &nbsp;About Me </h2>
        <ul>
-        <li>🎓 &nbsp; Student of the Universidad Tecnologia de Panama, Faculty of Computer Systems and Information Technology. <a href="https://ut.ac.ir/en">UT</a></li>
-        <li>📚 &nbsp; Computer and Systems Engineering Student <a href="https://ut.ac.ir/en">UT</a></li>
+        <li>🎓 &nbsp; Student of the Universidad Tecnologia de Panama, Faculty of Computer Systems and Information Technology. <a href="(https://fisc.utp.ac.pa)">UTP</a></li>
+        <li>📚 &nbsp; Computer and Systems Engineering Student <a href="(https://fisc.utp.ac.pa)">UTP</a></li>
         <li>👑 &nbsp; Junior Backend and Frontend Developer </li>
         <li>🤔 &nbsp; Interested in Machine Learning and Optimization</li>
        </ul>
