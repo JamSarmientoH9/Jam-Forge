@@ -27,25 +27,15 @@
      <h2> 🛠 &nbsp;Tech Stack</h2>
      <img src="https://img.shields.io/badge/-C-05122A?style=flat&logo=C"/>
      <img src="https://img.shields.io/badge/-C++-05122A?style=flat&logo=C%2B%2B"/>
-     <img src="https://img.shields.io/badge/-Java-05122A?style=flat&logo=java"/>
      <img src="https://img.shields.io/badge/-Python-05122A?style=flat&logo=python"/>
      <br>
-     <img src="https://img.shields.io/badge/-Spring-05122A?style=flat&logo=spring"/>
-     <img src="https://img.shields.io/badge/-Django-05122A?style=flat&logo=django"/>
-     <img src="https://img.shields.io/badge/-Flask-05122A?style=flat&logo=flask"/>
-     <br>
-     <img src="https://img.shields.io/badge/-R-05122A?style=flat&logo=R&logoColor=276DC3"/>
      <img src="https://img.shields.io/badge/-Matlab-05122A?style=flat&logo=matlab"/>
-     <img src="https://img.shields.io/badge/-Octave-05122A?style=flat&logo=octave"/>
      <img src="https://img.shields.io/badge/-jupyter-05122A?style=flat&logo=jupyter"/>
      <img src="https://img.shields.io/badge/-colab-05122A?style=flat&logo=googlecolab"/>
-     <img src="https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown"/>
      <br>
      <img src="https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5"/>
      <img src="https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3"/>
      <img src="https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript"/>
-     <img src="https://img.shields.io/badge/-Bootstrap-05122A?style=flat&logo=bootstrap"/>
-     <img src="https://img.shields.io/badge/-JQuery-05122A?style=flat&logo=jquery"/>
      <br>
      <img src="https://img.shields.io/badge/-Git-05122A?style=flat&logo=git"/>
      <img src="https://img.shields.io/badge/-Github-05122A?style=flat&logo=github"/>
