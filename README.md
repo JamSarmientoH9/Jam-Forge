@@ -1,7 +1,7 @@
 ### Hi there 👋
 ![Blue Black Neon Sci Fi Twitch Banner](https://github.com/Jhuomar-Barria/Code-Forge/assets/124087234/9715a1c3-72c1-4a89-be98-95454de54fd5)
 ## I'm Jhuomar Barria 
-![](https://komarev.com/ghpvc/?username=your-taabann&color=0069b4)
+
 <table>
   <tr>
     <td>
@@ -12,6 +12,11 @@
         <li>👑 &nbsp; Junior Backend and Frontend Developer </li>
         <li>🤔 &nbsp; Interested in Machine Learning and Optimization</li>
        </ul> 
+      <p align="center">
+         <br>
+        <img height="150em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Taabannn&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+        </p>
+    </td>
   </tr>
   <tr>
    <td>
