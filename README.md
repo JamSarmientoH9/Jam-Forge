@@ -1,4 +1,3 @@
-### Hi there 👋
 ![Blue Black Neon Sci Fi Twitch Banner](https://github.com/Jhuomar-Barria/Code-Forge/assets/124087234/9715a1c3-72c1-4a89-be98-95454de54fd5)
 ## I'm Jhuomar Barria 
 
