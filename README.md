@@ -50,10 +50,10 @@
     <div align="center">
       <h2><b>How to Reach Me</b></h2>
       <br>
-      <p>Welcome to my GitHub repository! Here, you'll find a treasure trove of code waiting to be explored. Whether you're delving into C, C++, Python, HTML, CSS, or JavaScript, there's something here for you. Dive in, explore, and unleash your creativity with my projects. Happy coding!
+      <p>Welcome to my GitHub repository! Here, you'll find a treasure trove of code waiting to be explored. 
+        Whether you're delving into C, C++, Python, HTML, CSS, or JavaScript, there's something here for you. 
+        Dive in, explore, and unleash your creativity with my projects. Happy coding!
       </p>
-
-    </div>
    </td>
   </tr>
 </table>
