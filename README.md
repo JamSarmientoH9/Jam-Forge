@@ -50,20 +50,9 @@
     <div align="center">
       <h2><b>How to Reach Me</b></h2>
       <br>
-      <p>Please don't hesitate to contact me 
-        <br>if you need further information or help.
+      <p>Welcome to my GitHub repository! Here, you'll find a treasure trove of code waiting to be explored. Whether you're delving into C, C++, Python, HTML, CSS, or JavaScript, there's something here for you. Dive in, explore, and unleash your creativity with my projects. Happy coding!
       </p>
-      <br>
-      <a href="https://https://www.instagram.com/quantumquirk31//" target="_blank">
-      <img align="center" alt="quantumquirk31 | Instagram" width="30em" src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png" />
-      </a> &nbsp;&nbsp;
-      <a href="mailto:jhuomar3105@gmail.com" >
-      <img align="center" alt="Jhuomar Barria | Gmail" width="30em" src="https://img.icons8.com/ios-glyphs/50/000000/gmail.png" />
-      </a> &nbsp;&nbsp;
-      <a href="https://[www.linkedin.com/in/TabanSoleymani](https://www.linkedin.com/in/jhuomar-barría/)/" >
-      <img align="center" alt="Jhuomar B. Barria Q. | LinkedIn" width="30em" src="https://img.icons8.com/ios-glyphs/50/000000/linkedin.png" />
-      </a> &nbsp;&nbsp;
-      <br>
+
     </div>
    </td>
   </tr>
