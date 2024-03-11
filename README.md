@@ -44,7 +44,6 @@
      <img src="https://img.shields.io/badge/-MySql-05122A?style=flat&logo=mysql"/>
      <img src="https://img.shields.io/badge/-SQLite-05122A?style=flat&logo=sqlite"/>
      <br>
-     <img src="https://img.shields.io/badge/-IntelliJ-05122A?style=flat&logo=intellijidea"/>
      <img src="https://img.shields.io/badge/-PyCharm-05122A?style=flat&logo=pycharm"/>
      <img src="https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC"/>
    </td>
@@ -57,9 +56,9 @@
       </p>
       <br>
       <a href="https://www.instagram.com/taabannn/" target="_blank">
-      <img align="center" alt="Taban Soleymani | Instagram" width="30em" src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png" />
+      <img align="center" alt="quantumquirk31 | Instagram" width="30em" src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png" />
       </a> &nbsp;&nbsp;
-      <a href="mailto:tabansly78@gmail.com" >
+      <a href="mailto:jhuomar3105@gmail.com" >
       <img align="center" alt="Taban Soleymani | Gmail" width="30em" src="https://img.icons8.com/ios-glyphs/50/000000/gmail.png" />
       </a> &nbsp;&nbsp;
       <a href="https://join.skype.com/invite/oJPb3eoBcLa3" >
