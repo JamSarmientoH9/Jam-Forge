@@ -1,128 +1,127 @@
-# Retos de Programación en Python
+# Python Programming Challenges
 
-## Nivel Básico
+## Basic Level
 
-1. **Calculadora Simple**
-   - **Descripción:** Crea una calculadora que realice operaciones básicas como suma, resta, multiplicación y división.
-   - **Recomendaciones:** Usa funciones para cada operación y un menú para seleccionar la operación deseada.
+1. **Simple Calculator**
+   - **Description:** Create a calculator that performs basic operations like addition, subtraction, multiplication, and division.
+   - **Recommendations:** Use functions for each operation and a menu to select the desired operation.
 
-2. **Contador de Palabras**
-   - **Descripción:** Escribe un programa que cuente el número de palabras en una cadena de texto ingresada por el usuario.
-   - **Recomendaciones:** Utiliza el método `split()` para dividir el texto en palabras.
+2. **Word Counter**
+   - **Description:** Write a program that counts the number of words in a text string provided by the user.
+   - **Recommendations:** Use the `split()` method to divide the text into words.
 
-3. **Conversor de Temperatura**
-   - **Descripción:** Desarrolla un programa que convierta temperaturas de grados Celsius a Fahrenheit y viceversa.
-   - **Recomendaciones:** Usa fórmulas de conversión y permite al usuario elegir la dirección de la conversión.
+3. **Temperature Converter**
+   - **Description:** Develop a program that converts temperatures from Celsius to Fahrenheit and vice versa.
+   - **Recommendations:** Use conversion formulas and allow the user to choose the direction of conversion.
 
-4. **Número Primo**
-   - **Descripción:** Crea una función que determine si un número dado es primo o no.
-   - **Recomendaciones:** Revisa divisores hasta la raíz cuadrada del número para optimizar la función.
+4. **Prime Number Checker**
+   - **Description:** Create a function that determines if a given number is prime.
+   - **Recommendations:** Check divisors up to the square root of the number to optimize the function.
 
-5. **Generador de Contraseñas**
-   - **Descripción:** Desarrolla un programa que genere contraseñas aleatorias de una longitud especificada.
-   - **Recomendaciones:** Utiliza el módulo `random` para generar caracteres al azar.
+5. **Password Generator**
+   - **Description:** Develop a program that generates random passwords of a specified length.
+   - **Recommendations:** Use the `random` module to generate random characters.
 
-6. **Adivina el Número**
-   - **Descripción:** Crea un juego en el que el usuario tenga que adivinar un número aleatorio generado por el programa.
-   - **Recomendaciones:** Implementa un bucle que permita múltiples intentos y proporciona pistas.
+6. **Guess the Number Game**
+   - **Description:** Create a game where the user has to guess a randomly generated number.
+   - **Recommendations:** Implement a loop that allows multiple attempts and provides hints.
 
-7. **Contador de Caracteres**
-   - **Descripción:** Escribe un programa que cuente la cantidad de veces que aparece cada carácter en una cadena de texto.
-   - **Recomendaciones:** Usa un diccionario para almacenar los conteos de caracteres.
+7. **Character Counter**
+   - **Description:** Write a program that counts the number of times each character appears in a text string.
+   - **Recommendations:** Use a dictionary to store character counts.
 
-8. **Suma de Números**
-   - **Descripción:** Crea una función que sume todos los números enteros desde 1 hasta un número dado.
-   - **Recomendaciones:** Usa un bucle `for` para iterar y acumular la suma.
+8. **Sum of Numbers**
+   - **Description:** Create a function that sums all integers from 1 to a given number.
+   - **Recommendations:** Use a `for` loop to iterate and accumulate the sum.
 
-9. **Fibonacci**
-   - **Descripción:** Implementa una función que genere la secuencia de Fibonacci hasta un número dado.
-   - **Recomendaciones:** Utiliza un bucle para calcular la secuencia o recursividad para un enfoque más avanzado.
+9. **Fibonacci Sequence**
+   - **Description:** Implement a function that generates the Fibonacci sequence up to a given number.
+   - **Recommendations:** Use a loop to calculate the sequence or recursion for a more advanced approach.
 
-10. **Palíndromos**
-    - **Descripción:** Desarrolla un programa que verifique si una cadena de texto es un palíndromo (se lee igual hacia adelante y hacia atrás).
-    - **Recomendaciones:** Compara la cadena con su reverso usando el operador de slicing.
+10. **Palindrome Checker**
+    - **Description:** Develop a program that checks if a text string is a palindrome (reads the same forwards and backwards).
+    - **Recommendations:** Compare the string with its reverse using slicing.
 
-## Nivel Intermedio
+## Intermediate Level
 
-1. **Ordenar una Lista**
-   - **Descripción:** Crea una función que ordene una lista de números de manera ascendente o descendente.
-   - **Recomendaciones:** Implementa algoritmos de ordenación como burbuja o inserción.
+1. **Sort a List**
+   - **Description:** Create a function that sorts a list of numbers in ascending or descending order.
+   - **Recommendations:** Implement sorting algorithms like bubble sort or insertion sort.
 
-2. **Juego del Ahorcado**
-   - **Descripción:** Desarrolla un juego del ahorcado donde el usuario adivine letras en una palabra secreta.
-   - **Recomendaciones:** Usa listas para representar letras adivinadas y faltantes, y controla intentos fallidos.
+2. **Hangman Game**
+   - **Description:** Develop a hangman game where the user guesses letters in a secret word.
+   - **Recommendations:** Use lists to represent guessed letters and missing letters, and control failed attempts.
 
-3. **Calculadora de IMC**
-   - **Descripción:** Crea una calculadora que calcule el Índice de Masa Corporal (IMC) y clasifique el estado físico.
-   - **Recomendaciones:** Usa fórmulas matemáticas y condicionales para clasificar el IMC.
+3. **BMI Calculator**
+   - **Description:** Create a calculator that calculates the Body Mass Index (BMI) and classifies the physical state.
+   - **Recommendations:** Use mathematical formulas and conditionals to classify BMI.
 
-4. **Registro de Contactos**
-   - **Descripción:** Desarrolla un sistema simple para agregar, eliminar y buscar contactos en una agenda.
-   - **Recomendaciones:** Utiliza un diccionario para almacenar contactos y funciones para gestionar la agenda.
+4. **Contact List Manager**
+   - **Description:** Develop a simple system to add, remove, and search contacts in an address book.
+   - **Recomendations:** Use a dictionary to store contacts and functions to manage the address book.
 
-5. **Analizador de Archivos CSV**
-   - **Descripción:** Implementa un programa que lea y analice datos de un archivo CSV, y muestre estadísticas básicas.
-   - **Recomendaciones:** Usa el módulo `csv` para leer archivos y realizar análisis.
+5. **CSV File Analyzer**
+   - **Description:** Implement a program that reads and analyzes data from a CSV file, and shows basic statistics.
+   - **Recommendations:** Use the `csv` module to read files and perform analysis.
 
-6. **Gestor de Tareas**
-   - **Descripción:** Crea una aplicación de línea de comandos para agregar, eliminar y listar tareas pendientes.
-   - **Recomendaciones:** Implementa una interfaz simple usando menús y listas para gestionar las tareas.
+6. **Task Manager**
+   - **Description:** Create a command-line application to add, remove, and list pending tasks.
+   - **Recommendations:** Implement a simple interface using menus and lists to manage tasks.
 
-7. **Conversor de Moneda**
-   - **Descripción:** Desarrolla un conversor de monedas que convierta entre varias divisas usando tasas de cambio.
-   - **Recomendaciones:** Permite al usuario seleccionar la moneda y usar tasas de cambio predefinidas.
+7. **Currency Converter**
+   - **Description:** Develop a currency converter that converts between various currencies using exchange rates.
+   - **Recommendations:** Allow the user to select the currency and use predefined exchange rates.
 
-8. **Cifrado César**
-   - **Descripción:** Implementa un cifrador y descifrador usando el cifrado César, que desplaza caracteres en el alfabeto.
-   - **Recomendaciones:** Utiliza operaciones de módulo para el desplazamiento de caracteres.
+8. **Caesar Cipher**
+   - **Description:** Implement an encoder and decoder using the Caesar cipher, which shifts characters in the alphabet.
+   - **Recommendations:** Use modulo operations for character shifting.
 
-9. **Buscador de Palabras en Texto**
-   - **Descripción:** Crea un programa que busque una palabra específica en un texto y cuente cuántas veces aparece.
-   - **Recomendaciones:** Usa métodos de cadena como `find()` y `count()`.
+9. **Word Finder in Text**
+   - **Description:** Create a program that searches for a specific word in a text and counts how many times it appears.
+   - **Recommendations:** Use string methods like `find()` and `count()`.
 
-10. **Generador de Tablas de Multiplicar**
-    - **Descripción:** Desarrolla un programa que genere la tabla de multiplicar de un número especificado por el usuario.
-    - **Recomendaciones:** Usa un bucle `for` para calcular y mostrar la tabla.
+10. **Multiplication Table Generator**
+    - **Description:** Develop a program that generates the multiplication table of a number specified by the user.
+    - **Recommendations:** Use a `for` loop to calculate and display the table.
 
-## Nivel Avanzado
+## Advanced Level
 
-1. **Sistema de Inventario**
-   - **Descripción:** Implementa un sistema de inventario con funciones para agregar, eliminar, y consultar artículos, y realizar un seguimiento del stock.
-   - **Recomendaciones:** Utiliza clases para representar artículos y almacena datos en estructuras como listas o diccionarios.
+1. **Inventory System**
+   - **Description:** Implement an inventory system with functions to add, remove, and query items, and track stock levels.
+   - **Recommendations:** Use classes to represent items and store data in structures like lists or dictionaries.
 
-2. **Juego de Sudoku**
-   - **Descripción:** Crea un solucionador de Sudoku que pueda resolver tableros de Sudoku dados.
-   - **Recomendaciones:** Implementa un algoritmo de búsqueda como el backtracking para resolver el puzzle.
+2. **Sudoku Solver**
+   - **Description:** Create a Sudoku solver that can solve given Sudoku puzzles.
+   - **Recommendations:** Implement a search algorithm like backtracking to solve the puzzle.
 
-3. **Simulación de Sistema Bancario**
-   - **Descripción:** Desarrolla un sistema bancario simple con operaciones de depósito, retiro y consulta de saldo.
-   - **Recomendaciones:** Utiliza clases para representar cuentas bancarias y maneja excepciones para operaciones inválidas.
+3. **Banking System Simulation**
+   - **Description:** Develop a simple banking system with operations for deposit, withdrawal, and balance inquiry.
+   - **Recommendations:** Use classes to represent bank accounts and handle exceptions for invalid operations.
 
 4. **Web Scraper**
-   - **Descripción:** Implementa un scraper que recoja datos de una página web y los almacene en un archivo o base de datos.
-   - **Recomendaciones:** Usa bibliotecas como `requests` y `BeautifulSoup` para la recolección y análisis de datos.
+   - **Description:** Implement a scraper that collects data from a web page and stores it in a file or database.
+   - **Recommendations:** Use libraries like `requests` and `BeautifulSoup` for data collection and analysis.
 
-5. **Chatbot con Respuestas Automáticas**
-   - **Descripción:** Crea un chatbot que responda a preguntas frecuentes utilizando un conjunto predefinido de respuestas.
-   - **Recomendaciones:** Usa estructuras de datos como diccionarios para mapear preguntas a respuestas.
+5. **Chatbot with Automatic Responses**
+   - **Description:** Create a chatbot that responds to frequently asked questions using a predefined set of responses.
+   - **Recommendations:** Use data structures like dictionaries to map questions to responses.
 
-6. **Simulador de Juegos de Dados**
-   - **Descripción:** Desarrolla un simulador para lanzar dados y calcular estadísticas como el promedio y la frecuencia de resultados.
-   - **Recomendaciones:** Usa el módulo `random` para simular el lanzamiento de dados y realiza análisis estadísticos.
+6. **Dice Roll Simulator**
+   - **Description:** Develop a simulator for rolling dice and calculating statistics such as average and frequency of results.
+   - **Recommendations:** Use the `random` module to simulate dice rolls and perform statistical analysis.
 
-7. **Sistema de Recomendaciones**
-   - **Descripción:** Implementa un sistema de recomendaciones basado en preferencias de usuarios y productos.
-   - **Recomendaciones:** Usa técnicas de filtrado colaborativo o basado en contenido para generar recomendaciones.
+7. **Recommendation System**
+   - **Description:** Implement a recommendation system based on user preferences and products.
+   - **Recommendations:** Use collaborative filtering or content-based techniques to generate recommendations.
 
-8. **Análisis de Sentimientos**
-   - **Descripción:** Desarrolla un programa que analice el sentimiento de un texto utilizando técnicas de procesamiento de lenguaje natural.
-   - **Recomendaciones:** Utiliza bibliotecas como `nltk` o `TextBlob` para el análisis de sentimientos.
+8. **Sentiment Analysis**
+   - **Description:** Develop a program that analyzes the sentiment of a text using natural language processing techniques.
+   - **Recommendations:** Use libraries like `nltk` or `TextBlob` for sentiment analysis.
 
-9. **Juego de Serpiente**
-   - **Descripción:** Implementa el clásico juego de la serpiente en la consola o en una interfaz gráfica.
-   - **Recomendaciones:** Usa una biblioteca gráfica como `pygame` para una interfaz visual y lógica de juego.
+9. **Snake Game**
+   - **Description:** Implement the classic Snake game either in the console or with a graphical interface.
+   - **Recommendations:** Use a graphical library like `pygame` for a visual interface and game logic.
 
-10. **API RESTful**
-    - **Descripción:** Desarrolla una API RESTful simple que permita realizar operaciones CRUD sobre un recurso (por ejemplo, usuarios).
-    - **Recomendaciones:** Usa un framework web como `Flask` o `Django` para implementar y probar la API.
-
+10. **RESTful API**
+    - **Description:** Develop a simple RESTful API that allows performing CRUD operations on a resource (e.g., users).
+    - **Recommendations:** Use a web framework like `Flask` or `Django` to implement and test the API.
