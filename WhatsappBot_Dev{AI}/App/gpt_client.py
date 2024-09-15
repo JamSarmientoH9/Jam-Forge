@@ -9,7 +9,7 @@ import os #Import os module to acces .env file
 class GPTClient:
     def __init__(self):
         #Authenticates by accesing the "OPEN_AI_KEY"
-        self.client = OpenAI(api_key = os.environ.get('OPEN_AI_KEY'))
+        self.client = OpenAI(api_key = "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")
 
         #Variable that stores all instructions for the AI (from the "who_is_gpt var in gpt_instructions")
         self.instructions = who_is_gpt

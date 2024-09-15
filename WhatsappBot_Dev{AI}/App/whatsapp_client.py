@@ -1,6 +1,7 @@
 import os
 import requests
 from dotenv import load_dotenv
+from gpt_client import GPTClient
 
 class WhatsAppClient:
     def __init__(self):
@@ -8,8 +9,8 @@ class WhatsAppClient:
         load_dotenv()
 
         # Se obtiene el token e ID del número de teléfono de las variables de entorno
-        self.access_token = os.getenv('WHATSAPP_ACCESS_TOKEN')
-        self.phone_number_id = os.getenv('WHATSAPP_PHONE_NUMBER_ID ')
+        self.access_token = os.getenv('ACCES_TOKEN')
+        self.phone_number_id = os.getenv('PHONE_NUMBER_ID')
 
         # Configurar la URL base y los headers para las solicitudes a la API
         self.base_url = f"https://graph.facebook.com/v20.0/{self.phone_number_id}/messages"
@@ -17,7 +18,7 @@ class WhatsAppClient:
             "Authorization": f"Bearer {self.access_token}",
             "Content-Type": "application/json"
         }
-
+        self.gpt_client = GPTClient()
     def send_message(self, recipient_number, message_type, message_content):
         # Preparar el payload para enviar el mensaje
         payload = {
@@ -76,21 +77,28 @@ class WhatsAppClient:
             if message_body:
                 print(f"Mensaje recibido de {from_number}: {message_body}")
 
-                # Ejemplo de una respuesta automática o robotizada
-                response_message = f"Gracias por tu mensaje: {message_body}"
-                self.send_text_message(from_number, response_message)
+                # Usar GPT para generar una respuesta
+                gpt_response = self.gpt_client.generate_response(message_body)
+
+                # Enviar la respuesta generada por GPT
+                self.send_message(from_number, "text", {"body": gpt_response})
 
 # Ejemplo de uso
 if __name__ == "__main__":
     client = WhatsAppClient()
 
-    # Ejemplo para enviar un mensaje de plantilla
-    recipient_number = "123456789" # aqui va el numero a quien sera enviado el mensaje
-    template_name = "hello_world"
-    language_code = "en_US"
+    recipient_number = "18498613717"
+    message_type = "text"
+    message_content = {
+        "body": "ESTOY HARTO"  # El mensaje de texto debe estar en un diccionario con 'body'
+    }
 
-    response = client.send_template_message(recipient_number, template_name, language_code)
-    print("Template message response:", response)
-
+    # Llamada para enviar el mensaje
+    whatsapp_client = WhatsAppClient()
+    response_sent = whatsapp_client.send_message(
+        recipient_number=recipient_number,
+        message_type=message_type,
+        message_content=message_content
+    )
 
 """PROCUREN DE ACTUALIZAR CADA VEZ SU ACCES TOKEN Y DEMAS,GRACIAS :)"""

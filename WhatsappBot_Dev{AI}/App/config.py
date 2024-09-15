@@ -1,8 +1,17 @@
-ACCES_TOKEN='YOUR_ACCES_TOKEN_HERE_PLS'
-PHONE_NUMBER_ID=''
+# config/config.py
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID')
+TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN')
+TWILIO_PHONE_NUMBER = os.getenv('TWILIO_PHONE_NUMBER')
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+VERIFY_TOKEN = os.getenv('VERIFY_TOKEN')
+ACCES_TOKEN= os.getenv('YOUR_ACCES_TOKEN_HERE')
+PHONE_NUMBER_ID= os.getenv('YOUR_PHONE_ID_HERE')
 
 # Other config values :)
-API_BASE_URL = f'https://graph.facebook.com/v20.0/'
+API_BASE_URL ='https://graph.facebook.com/v20.0/'
 
-# Example: Add your OpenAI key here as well if needed
-OPENAI_API_KEY ='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'
